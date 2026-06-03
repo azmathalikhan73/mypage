@@ -74,7 +74,8 @@ export default function Page10_FinalSurprise({ onReplay, onBack }) {
                 <ImageWithFallback 
                   src={birthdayData.finalSurprise.image}
                   alt="Final Surprise Family"
-                  containerClassName="aspect-[4/3] rounded-2xl"
+                  containerClassName="aspect-square rounded-2xl bg-pink-50/30 flex items-center justify-center w-full"
+                  className="!object-contain hover:scale-103 duration-500"
                   fallbackText="Grand Celebration Portrait"
                 />
               </div>

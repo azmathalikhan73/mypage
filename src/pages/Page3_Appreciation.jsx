@@ -57,7 +57,7 @@ export default function Page3_Appreciation({ onNext, onBack }) {
               <ImageWithFallback 
                 src={birthdayData.familyAppreciation.image}
                 alt="Family Photo"
-                containerClassName="aspect-[4/3] rounded-2xl w-full"
+                containerClassName="aspect-square rounded-2xl w-full"
                 className="hover:scale-103 duration-500"
                 fallbackText="Family Portrait"
               />
