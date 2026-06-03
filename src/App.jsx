@@ -15,7 +15,6 @@ import Page10_FinalSurprise from './pages/Page10_FinalSurprise';
 
 // Import Global Components
 import FloatingParticles from './components/FloatingParticles';
-import MusicPlayer from './components/MusicPlayer';
 
 const PAGES = [
   { id: 1, name: "Welcome", title: "Welcome Screen" },
@@ -120,9 +119,6 @@ export default function App() {
       
       {/* Global Animated Background Particles */}
       <FloatingParticles count={28} />
-
-      {/* Floating Music Controller */}
-      <MusicPlayer />
 
       {/* Main Header / Navigation */}
       <header className="sticky top-0 z-40 bg-white/40 backdrop-blur-md border-b border-pink-100/50 px-4 md:px-8 py-3.5 flex items-center justify-between shadow-sm">
